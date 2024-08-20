@@ -9,8 +9,13 @@
 /* Begin PBXBuildFile section */
 		FE177E642C632A3C00FCA88E /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE177E632C632A3C00FCA88E /* SampleData.swift */; };
 		FE177E662C6337D100FCA88E /* MovieDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE177E652C6337D100FCA88E /* MovieDetail.swift */; };
+		FE6D54502C74AD290042CC42 /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6D544F2C74AD290042CC42 /* Friend.swift */; };
+		FE6D54522C74ADE40042CC42 /* FriendList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6D54512C74ADE40042CC42 /* FriendList.swift */; };
+		FE6D54542C74B19D0042CC42 /* FriendDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6D54532C74B19D0042CC42 /* FriendDetail.swift */; };
+		FE6D54562C74B4380042CC42 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6D54552C74B4380042CC42 /* ContentView.swift */; };
+		FE6D54582C74B7BD0042CC42 /* FilteredMovieList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6D54572C74B7BD0042CC42 /* FilteredMovieList.swift */; };
 		FEDA2D512C630E0A002C2C6B /* FriendsFavoriteMoviesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDA2D502C630E0A002C2C6B /* FriendsFavoriteMoviesApp.swift */; };
-		FEDA2D532C630E0A002C2C6B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDA2D522C630E0A002C2C6B /* ContentView.swift */; };
+		FEDA2D532C630E0A002C2C6B /* MovieList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDA2D522C630E0A002C2C6B /* MovieList.swift */; };
 		FEDA2D552C630E0A002C2C6B /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDA2D542C630E0A002C2C6B /* Movie.swift */; };
 		FEDA2D572C630E0B002C2C6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEDA2D562C630E0B002C2C6B /* Assets.xcassets */; };
 		FEDA2D5A2C630E0B002C2C6B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEDA2D592C630E0B002C2C6B /* Preview Assets.xcassets */; };
@@ -19,9 +24,14 @@
 /* Begin PBXFileReference section */
 		FE177E632C632A3C00FCA88E /* SampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
 		FE177E652C6337D100FCA88E /* MovieDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetail.swift; sourceTree = "<group>"; };
+		FE6D544F2C74AD290042CC42 /* Friend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
+		FE6D54512C74ADE40042CC42 /* FriendList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendList.swift; sourceTree = "<group>"; };
+		FE6D54532C74B19D0042CC42 /* FriendDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendDetail.swift; sourceTree = "<group>"; };
+		FE6D54552C74B4380042CC42 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FE6D54572C74B7BD0042CC42 /* FilteredMovieList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilteredMovieList.swift; sourceTree = "<group>"; };
 		FEDA2D4D2C630E0A002C2C6B /* FriendsFavoriteMovies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FriendsFavoriteMovies.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEDA2D502C630E0A002C2C6B /* FriendsFavoriteMoviesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsFavoriteMoviesApp.swift; sourceTree = "<group>"; };
-		FEDA2D522C630E0A002C2C6B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FEDA2D522C630E0A002C2C6B /* MovieList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieList.swift; sourceTree = "<group>"; };
 		FEDA2D542C630E0A002C2C6B /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		FEDA2D562C630E0B002C2C6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FEDA2D592C630E0B002C2C6B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -57,13 +67,18 @@
 		FEDA2D4F2C630E0A002C2C6B /* FriendsFavoriteMovies */ = {
 			isa = PBXGroup;
 			children = (
-				FEDA2D502C630E0A002C2C6B /* FriendsFavoriteMoviesApp.swift */,
-				FEDA2D522C630E0A002C2C6B /* ContentView.swift */,
-				FE177E652C6337D100FCA88E /* MovieDetail.swift */,
-				FE177E632C632A3C00FCA88E /* SampleData.swift */,
-				FEDA2D542C630E0A002C2C6B /* Movie.swift */,
 				FEDA2D562C630E0B002C2C6B /* Assets.xcassets */,
+				FEDA2D522C630E0A002C2C6B /* MovieList.swift */,
+				FE6D54572C74B7BD0042CC42 /* FilteredMovieList.swift */,
+				FE6D54552C74B4380042CC42 /* ContentView.swift */,
+				FE6D544F2C74AD290042CC42 /* Friend.swift */,
+				FE6D54532C74B19D0042CC42 /* FriendDetail.swift */,
+				FE6D54512C74ADE40042CC42 /* FriendList.swift */,
+				FEDA2D502C630E0A002C2C6B /* FriendsFavoriteMoviesApp.swift */,
+				FEDA2D542C630E0A002C2C6B /* Movie.swift */,
+				FE177E652C6337D100FCA88E /* MovieDetail.swift */,
 				FEDA2D582C630E0B002C2C6B /* Preview Content */,
+				FE177E632C632A3C00FCA88E /* SampleData.swift */,
 			);
 			path = FriendsFavoriteMovies;
 			sourceTree = "<group>";
@@ -146,9 +161,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FEDA2D532C630E0A002C2C6B /* ContentView.swift in Sources */,
+				FE6D54542C74B19D0042CC42 /* FriendDetail.swift in Sources */,
+				FEDA2D532C630E0A002C2C6B /* MovieList.swift in Sources */,
+				FE6D54562C74B4380042CC42 /* ContentView.swift in Sources */,
 				FEDA2D552C630E0A002C2C6B /* Movie.swift in Sources */,
 				FE177E662C6337D100FCA88E /* MovieDetail.swift in Sources */,
+				FE6D54522C74ADE40042CC42 /* FriendList.swift in Sources */,
+				FE6D54502C74AD290042CC42 /* Friend.swift in Sources */,
+				FE6D54582C74B7BD0042CC42 /* FilteredMovieList.swift in Sources */,
 				FEDA2D512C630E0A002C2C6B /* FriendsFavoriteMoviesApp.swift in Sources */,
 				FE177E642C632A3C00FCA88E /* SampleData.swift in Sources */,
 			);
